@@ -1,0 +1,222 @@
+@media(max-width: 700px){
+                                                /*  ///HEADER\\\  */
+
+
+    .big-header{
+        /* border: 2px solid red; */
+
+    }
+
+
+                                                /*  //TOP-HEADER\\  */
+
+
+    .division-header{
+        /* border: 2px solid blue; */
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+
+    .search{
+        width: 14.5%;
+        height: 10%;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        /* border: 2px solid red; */
+    }
+
+    .search-box{
+        flex-shrink: 0;
+        height: 99%;
+        width: 99%;
+        border: none;
+        border-bottom: 1px solid #bdbdbd;
+        font-size: 65%;
+        font-weight: 100;
+    }
+
+    .logo-containertag{
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+        padding: 0px;
+        height: 175px;
+
+    }
+
+    .logo-image{
+        /*border: 10px solid blue;*/
+        box-sizing: border-box;
+        height:100%;
+
+    }
+
+    .session-list{
+        font-size: 50%;
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        align-self: center;
+        flex-shrink: 0;
+        flex-wrap: wrap;
+        width: 23%;
+
+        
+    }
+
+    .create-session-item{
+        margin-right: 5px;
+        color: black;
+        text-decoration: none;
+        height: 100%;
+    }
+    .beging-session-item{
+        margin-right: 5px;
+        color: black;
+        text-decoration: none;
+        height: 100%;
+
+    }
+
+
+                                            /*  //BOTTOM-HEADER\\  */
+
+
+    .menu-box{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .menu-container{
+        width: 60%;
+        padding: 0;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        display: flex;
+        justify-content: space-around;
+        flex-shrink: 0;
+        flex-wrap: wrap;
+    }
+
+    .menu-container .menu-item-begining{
+        color: black;
+        font-size: 75%;
+        text-decoration: overline underline;
+        padding: 5px;
+        display: flex;
+    }
+
+    .menu-container .menu-item{
+        color: #000000;
+        font-size: 75%;
+        text-decoration: none;
+        padding: 5px;
+    }
+
+    .menu-item-begining:hover{
+        color: white;
+        text-shadow: -.65px 0 black, 0 .65px black, .65px 0 black, 0 -.65px black;
+    }
+
+    .menu-item:hover{
+        color: white;
+        text-shadow: -.65px 0 black, 0 .65px black, .65px 0 black, 0 -.65px black;;
+    }
+
+                                                /*  ///COVERPAGE\\\ */
+    .coverPage-container{
+        height: 300px;
+        margin: 10px 0;
+    }
+
+    .coverPage{
+        height: 100%;
+        box-sizing: border-box;
+    }
+
+                                                 /*  ///PRODUCTS\\\  */
+
+    .products{
+        padding: 2%;
+    }
+
+    .products .title-products{
+        font-size: 100%;
+    }
+
+    .container-images-products{
+
+    }
+
+    .container-images-products .image-products-box .tagbox-image-products{
+        width: 150px;
+        height: 150px;
+        box-sizing: border-box;
+    }
+    .container-images-products .image-products-box .name-image-products{
+        font-size: 85%;
+    }
+
+    .container-button-products{
+
+    }
+    .container-button-products .all-products-button{
+        font-size: 90%;
+        width: 50%;
+ 
+    }
+
+                                                /*  ///SALES\\\  */
+    .sales .sales-title-box .sales-title{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .bigBox-sales .sales-image-box .tagbox-sales-image{
+        width: 150px;
+        height: 150px;
+        box-sizing: border-box;
+    }
+
+    .bigBox-sales .sales-image-box .name-image-sales{
+        font-size: 85%;
+    }
+
+                                            /*  ///INSTAGRAM PHOTOS\\\  */
+    .box-instagram-images .ig-division .instagram-link .instagram-logo-container{
+
+    }
+
+    .box-instagram-images .ig-division .instagram-link .instagram-user{
+        font-size: 25px;
+    }
+
+                                                /* ///SUPERFLUO BOX\\\ */
+
+    .superfluo-box{
+        height: 70px;
+    }                
+    
+    .superfluo-box .superfluo-information{
+
+    }
+
+    .superfluo-box .superfluo-information .titles-division{
+        
+    }
+
+    .superfluo-box .superfluo-information .titles-division .icon-title{
+
+    }
+
+    .superfluo-box .superfluo-information .titles-division .icon-subtitle{
+
+    }
+
+}
